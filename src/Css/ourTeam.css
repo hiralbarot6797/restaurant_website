@@ -1,0 +1,35 @@
+.team-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  max-width: auto; 
+  margin: 0 auto;
+}
+
+.team-member {
+  flex: 0 0 200px; 
+  padding: 30px;
+  margin: 10px; 
+  text-align: center; 
+}
+
+.team-member img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.member-name {
+  font-weight: bold;
+}
+
+.member-designation {
+  font-style: italic;
+}
